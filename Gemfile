@@ -25,6 +25,8 @@ group :doc do
 	gem 'sdoc', '~> 0.4.0', require: false
 end
 
+gem 'bootstrap-sass'
+
 group :production do
 	gem 'pg','0.17.1'
 end
