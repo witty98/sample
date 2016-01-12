@@ -40,13 +40,13 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3','1.3.11'
-  gem 'rspec-rails','3.4.0'
+  gem 'rspec-rails'
   # gem 'byebug'
 end
 
 group :text do
 	gem 'selenium-webdriver','2.48.1'
-	gem 'capybara','2.5.0'
+	gem 'capybara'
 end
 
 # group :development do
