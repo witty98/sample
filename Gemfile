@@ -49,9 +49,10 @@ group :development, :test do
   # gem 'byebug'
 end
 
-group :text do
+group :test do
 	gem 'selenium-webdriver','2.48.1'
 	gem 'capybara'
+	gem 'factory_girl_rails'
 end
 
 # group :development do
